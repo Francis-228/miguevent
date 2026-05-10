@@ -8,8 +8,8 @@ header('Content-Type: text/plain; charset=utf-8');
 
 // ========== 用户信息（固定写死防泄露） ==========
 // 默认写死的会员信息
-$defaultUserId    = "你的userId";
-$defaultUserToken = "你的userToken";
+$defaultUserId    = "985622662";
+$defaultUserToken = "nlps2D562D817105A67396C8";
 
 // 优先使用 URL 传参，如果没有则使用默认值
 $userId    = $_GET['userId'] ?? $defaultUserId;
